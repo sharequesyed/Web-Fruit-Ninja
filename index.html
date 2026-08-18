@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fruit Ninja</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="game-container">
+  <video id="webcam" autoplay playsinline></video>
+  <canvas id="gameCanvas" width="960" height="600"></canvas>
+  <div id="ui">
+    <div class="score-box">SCORE: <span id="score">0</span></div>
+    <div class="lives-box">LIVES: <span id="lives">❤️❤️❤️</span></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
